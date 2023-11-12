@@ -1,0 +1,22 @@
+{
+  "name": "my-lib",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "exports": {
+    ".": {
+      "browser": "./dist/browser/index.js",
+      "types": "./dist/browser/index.d.ts"
+    },
+    "./common": {
+      "types": "./dist/common/index.d.ts",
+      "default": "./dist/common/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
