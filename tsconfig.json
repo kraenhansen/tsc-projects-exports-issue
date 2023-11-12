@@ -21,7 +21,8 @@
       "es2022"
     ],
     "noResolve": true,
-    "types": []
+    "types": [],
+    "typeRoots": ["./typings"]
   },
   "include": [],
   "references": [
